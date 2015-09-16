@@ -1,3 +1,10 @@
+/* General styles
+===========================================*/
+body {
+    background: #f9f9f9;
+}
+
+
 /* Navigation
 ===========================================*/
 .navbar {
@@ -7,12 +14,16 @@
     margin: 10px 0 10px;
 }
 
+.logo img {
+    width: 70px;
+}
+
 /* About
 ===========================================*/
 
 #about {
     min-height: 500px;
-    background: lightgray;
+
 }
 
 h1 {
@@ -33,10 +44,9 @@ h1 {
 
 #contact {
     min-height: 500px;
-    background: lightgray;
 }
 
 #footer {
     min-height: 200px;
-    background: gray;
+    background: #1e1e1e;
 }
