@@ -4,8 +4,12 @@ body {
     background: #f9f9f9;
 }
 
+.container {
 
-/* Navigation
+}
+
+
+/* Navigation & Header
 ===========================================*/
 .navbar {
     border: none;
@@ -18,11 +22,17 @@ body {
     width: 70px;
 }
 
+.navbar-text {
+    display: none;
+}
+
 /* About
 ===========================================*/
 
 #about {
     min-height: 500px;
+
+    margin: 0px 0 ;
 
 }
 
@@ -42,11 +52,27 @@ h1 {
   max-width: 750px;
   margin: 0 auto 0px; }
 
+  .dropcap {
+  font-size: 3.4em;
+  display: block;
+  float: left;
+  width: .8em;
+  height: .7em;
+  line-height: 0.8;
+  margin: 0; }
+
 #contact {
     min-height: 500px;
 }
 
+/* Footer
+===========================================*/
 #footer {
-    min-height: 200px;
-    background: #1e1e1e;
-}
+  border-top: solid 2px;
+  background: #1e1e1e;
+  color: #606060;
+  text-align: center;
+  padding: 30px 0 70px; }
+
+#footer a {
+  color: #606060; }

@@ -1,0 +1,21 @@
+@media screen and (min-width: 660px) {
+/* About
+===========================================*/
+.intro {
+    max-width: 650px;
+    margin: 150px 0 0 0px; }
+
+
+
+h1{
+    display: none;
+}
+
+.navbar-text{
+    display: inline-block;
+    font-size: 2em;
+    margin: 0px 0 0 20px;
+}
+
+
+}
