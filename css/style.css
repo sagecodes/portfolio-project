@@ -1,2 +1,9 @@
+/*.navbar {
+    border: none;
+    background: white;
+}*/
 
-
+#about {
+    min-height: 500px;
+    background: gray;
+}
