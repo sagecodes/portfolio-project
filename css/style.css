@@ -30,7 +30,7 @@ body{
 }
 
 .logo img {
-    width: 70px;
+    width: 80px;
 }
 
 
@@ -70,9 +70,23 @@ h1 {
   line-height: 0.8;
   margin: 0; }
 
+/* Contact
+===========================================*/
+
 #contact {
     min-height: 500px;
 }
+
+.icons {
+  margin: 0 auto 0px;
+  max-width: 160px;
+  padding: 20px 0 20px;
+}
+
+.icons img {
+  width: 50px;
+}
+
 
 /* Footer
 ===========================================*/
