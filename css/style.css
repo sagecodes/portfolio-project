@@ -1,5 +1,9 @@
 /* General styles
 ===========================================*/
+* {
+    box-shadow: none;
+}
+
 html{
     overflow-x: hidden;
 }
@@ -12,6 +16,7 @@ body{
     background: #f9f9f9;
     margin: 0px;
 }
+
 
 
 
@@ -33,15 +38,19 @@ body{
     width: 80px;
 }
 
+.navbar-collapse {
+  text-align: center;
+}
+
 
 
 /* About
 ===========================================*/
 
 #about {
-    min-height: 500px;
+    min-height: 400px;
 
-    margin: 0px 0 ;
+    margin: 0px 0 60px ;
 
 }
 
@@ -70,17 +79,37 @@ h1 {
   line-height: 0.8;
   margin: 0; }
 
+/* Portfolio
+===========================================*/
+
+.btn {
+    background: none;
+    box-shadow: none;
+}
+
+.btn-primary {
+    background: #829aa8;
+    border: solid 1px #829aa8;
+}
+
+#portfolio a{
+    cursor: pointer;
+}
+
+
+
 /* Contact
 ===========================================*/
 
 #contact {
     min-height: 500px;
+    margin-top: 50px;
 }
 
 .icons {
   margin: 0 auto 0px;
   max-width: 160px;
-  padding: 20px 0 20px;
+  padding: 5px 0 20px;
 }
 
 .icons img {
