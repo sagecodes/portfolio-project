@@ -1,7 +1,12 @@
-/*.navbar {
+/*######################
+    Navigation
+#######################*/
+.navbar {
     border: none;
-    background: white;
-}*/
+    background: none;
+    box-shadow: none;
+    margin: 10px 0 10px;
+}
 
 #about {
     min-height: 500px;
