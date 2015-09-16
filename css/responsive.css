@@ -1,4 +1,4 @@
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 992px) {
 /* About
 ===========================================*/
 #about {
@@ -7,7 +7,8 @@
 
 .intro {
     max-width: 650px;
-    margin: 100px 0 0 0px; }
+    margin: 15px 0 0 0px;
+}
 
 
 
