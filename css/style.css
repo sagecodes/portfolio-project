@@ -1,13 +1,11 @@
 /* General styles
 ===========================================*/
-body {
-    background: #f9f9f9;
+html{
+    overflow-x: hidden;
+}
 
-    font-family: 'Alegreya', Georgia, serif;
-    font-weight: normal;
-    color: #333;
-    font-size: 1.25em;
-    margin: 0px;
+body{
+    background: #f9f9f9;
 }
 
 
@@ -25,6 +23,8 @@ body {
 .logo img {
     width: 70px;
 }
+
+
 
 /* About
 ===========================================*/
