@@ -4,9 +4,7 @@ body {
     background: #f9f9f9;
 }
 
-.container {
 
-}
 
 
 /* Navigation & Header
@@ -20,10 +18,6 @@ body {
 
 .logo img {
     width: 70px;
-}
-
-.navbar-text {
-    display: none;
 }
 
 /* About

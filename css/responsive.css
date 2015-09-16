@@ -1,9 +1,13 @@
 @media screen and (min-width: 660px) {
 /* About
 ===========================================*/
+#about {
+    margin-top: 80px;
+}
+
 .intro {
     max-width: 650px;
-    margin: 150px 0 0 0px; }
+    margin: 100px 0 0 0px; }
 
 
 
