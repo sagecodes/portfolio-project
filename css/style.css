@@ -2,6 +2,12 @@
 ===========================================*/
 body {
     background: #f9f9f9;
+
+    font-family: 'Alegreya', Georgia, serif;
+    font-weight: normal;
+    color: #333;
+    font-size: 1.25em;
+    margin: 0px;
 }
 
 
