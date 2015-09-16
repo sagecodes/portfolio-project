@@ -1,6 +1,5 @@
-/*######################
-    Navigation
-#######################*/
+/* Navigation
+===========================================*/
 .navbar {
     border: none;
     background: none;
@@ -8,10 +7,29 @@
     margin: 10px 0 10px;
 }
 
+/* About
+===========================================*/
+
 #about {
     min-height: 500px;
     background: lightgray;
 }
+
+h1 {
+  text-align: center;
+  font-size: 3.25em; }
+
+.profile-photo {
+  display: block;
+  max-width: 20%;
+  min-width: 170px;
+  max-width: 300px;
+  margin: 0 auto 10px;
+  border-radius: 100%; }
+
+.intro {
+  max-width: 750px;
+  margin: 0 auto 0px; }
 
 #contact {
     min-height: 500px;
