@@ -1,29 +1,29 @@
 @media screen and (min-width: 992px) {
-/* About
-===========================================*/
-#about {
-    margin-top: 80px;
-}
+    /* Navigation
+    ===========================================*/
 
-.intro {
-    max-width: 650px;
-    margin: 15px 0 0 0px;
-}
+    .navbar-text {
+        display: inline-block;
+        font-size: 2em;
+        margin: 0px 0 0 20px;
+    }
+    /* About
+    ===========================================*/
 
+    #about {
+        margin-top: 80px;
+    }
+    .intro {
+        max-width: 650px;
+        margin: 15px 0 0 0px;
+    }
+    h1 {
+        display: none;
+    }
+    /* Contact
+    ===========================================*/
 
-
-h1{
-    display: none;
-}
-
-.navbar-text{
-    display: inline-block;
-    font-size: 2em;
-    margin: 0px 0 0 20px;
-}
-
-#contact h2 {
-    margin-bottom: 80px;
-}
-
+    #contact h2 {
+        margin-bottom: 80px;
+    }
 }
