@@ -16,12 +16,22 @@ body {
     background: #f9f9f9;
     margin: 0px;
 }
+
+#about,
+#portfolio,
+#contact{
+    padding-top: 40px;
+    margin-top: 40px;
+}
+
+
 /* Navigation & Header
 ===========================================*/
 
 .navbar {
     border: none;
     box-shadow: none;
+    opacity: 0.9;
     margin: 0px 0 10px;
 }
 .navbar-text {
@@ -35,6 +45,8 @@ body {
 }
 /* About
 ===========================================*/
+
+
 
 #about {
     min-height: 400px;
