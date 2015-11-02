@@ -31,9 +31,11 @@ body {
 .navbar {
     border: none;
     box-shadow: none;
-    opacity: 0.9;
+    opacity: 0.99;
     margin: 0px 0 10px;
 }
+
+
 .navbar-text {
     display: none;
 }
@@ -79,6 +81,28 @@ h1 {
 }
 /* Portfolio
 ===========================================*/
+
+.thumbnail {
+    border: none;
+    height: 470px;
+    overflow: hidden;
+}
+.pic-frame{
+    height: 200px;
+    overflow: hidden;
+    text-align: center;
+}
+.project-picture{
+    width: 100%;
+    -webkit-transition: all 2s; /* For Safari 3.1 to 6.0 */
+    transition: all 2s;
+}
+
+.project-picture:hover{
+    -ms-transform: scale(2,3); /* IE 9 */
+    -webkit-transform: scale(1.5,1.5); /* Safari */
+    transform: scale(1.5,1.5); /* Standard syntax */
+}
 
 .btn {
     background: none;
