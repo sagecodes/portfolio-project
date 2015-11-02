@@ -20,8 +20,8 @@ body {
 #about,
 #portfolio,
 #contact{
-    padding-top: 40px;
-    margin-top: 40px;
+    padding-top: 55px;
+    margin-top: 55px;
 }
 
 
@@ -30,17 +30,20 @@ body {
 
 .navbar {
     border: none;
-    box-shadow: none;
+    /*box-shadow: none;*/
     opacity: 0.99;
     margin: 0px 0 10px;
 }
 
-
+.navbar-nav li a {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 .navbar-text {
     display: none;
 }
 .logo img {
-    width: 80px;
+    width: 110px;
 }
 .navbar-collapse {
     text-align: center;
@@ -94,14 +97,15 @@ h1 {
 }
 .project-picture{
     width: 100%;
-    -webkit-transition: all 2s; /* For Safari 3.1 to 6.0 */
-    transition: all 2s;
+    height: auto;
+    -webkit-transition: all 3s; /* For Safari 3.1 to 6.0 */
+    transition: all 3s;
 }
 
 .project-picture:hover{
     -ms-transform: scale(2,3); /* IE 9 */
-    -webkit-transform: scale(1.5,1.5); /* Safari */
-    transform: scale(1.5,1.5); /* Standard syntax */
+    -webkit-transform: scale(1.1,1.1); /* Safari */
+    transform: scale(1.1,1.1); /* Standard syntax */
 }
 
 .btn {
