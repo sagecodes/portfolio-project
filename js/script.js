@@ -14,3 +14,9 @@ $(function() {
   });
 });
 
+// Closes mobile drop down menu when nav link clicked
+$(function () {
+            $('.navbar-collapse ul li a:not(.dropdown-toggle)').bind('click touchstart', function () {
+                    $('.navbar-toggle:visible').click();
+            });
+    });
