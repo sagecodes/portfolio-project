@@ -45,6 +45,7 @@ body {
 }
 .logo img {
     width: 110px;
+    margin-top: 4px;
 }
 .navbar-collapse {
     text-align: center;
