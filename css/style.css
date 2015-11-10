@@ -54,27 +54,45 @@ body {
 ===========================================*/
 
 
+.landing-photo {
+    max-width: 100%;
+    float: left;
+    margin-top: 50px;
+}
+
+/*.intro-float {
+    max-width: 400px;
+    float: right;
+    position: relative;
+    top:-50%;
+}*/
+
+.intro {
+    max-width: 750px;
+    margin: 0 auto 0px;
+    padding: 15px;
+    position: relative;
+    top: -400px;
+    background-color:rgba(255,255,255,0.4);}
 
 #about {
-    min-height: 400px;
+    min-height: 500px;
     margin: 0px 0 60px;
+
 }
 h1 {
     text-align: center;
     font-size: 3.25em;
 }
-.profile-photo {
+/*.profile-photo {
     display: block;
     max-width: 20%;
     min-width: 170px;
     max-width: 300px;
     margin: 0 auto 10px;
     border-radius: 100%;
-}
-.intro {
-    max-width: 750px;
-    margin: 0 auto 0px;
-}
+}*/
+
 .dropcap {
     font-size: 3.4em;
     display: block;
