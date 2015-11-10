@@ -24,11 +24,13 @@ body {
     margin: 0px;
 }
 
+.row {
+    margin: 0;
+}
 
 #portfolio,
 #contact{
     padding-top: 55px;
-    margin-top: 55px;
     background: red;
     background: #f9f9f9;
 }
@@ -160,7 +162,7 @@ h1 {
 
 #contact {
     min-height: 500px;
-    margin-top: 50px;
+
 }
 .icons {
     margin: 0 auto 0px;
