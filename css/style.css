@@ -45,7 +45,7 @@ body {
     box-shadow: none;
     opacity: 0.99;
     background: none;
-    margin: 0px 0 0px;
+    padding: 0px 15px 0px;
 }
 
 .navbar.scrolled {
@@ -69,7 +69,7 @@ body {
 }
 .logo img {
     width: 110px;
-    margin-top: 4px;
+    margin: 0px 0px -5px 15px;
 }
 .navbar-collapse {
     text-align: center;
@@ -98,7 +98,7 @@ body {
     padding: 15px;
     /*position: relative;
     top: -400px;*/
-    background-color:rgba(255,255,255,0.6);}
+    background-color:rgba(255,255,255,0.8);}
 
 
 h1 {
@@ -122,13 +122,13 @@ h1 {
     transition: all 0.5s ease-in-out;
     -ms-transform: translate(50px,100px); /* IE 9 */
     -webkit-transform: translate(50px,100px); /* Safari */
-    transform: translate(5000px,1000px); /* Standard syntax */
+    transform: translate(0px,500px); /* Standard syntax */
     position: fixed;
-
 }
 
 .tag.show {
-    position: relative;
+   position: relative;
+    left: 0px;
     visibility: visible;
     transform: translate(0px,0px); /* Standard syntax */
 }

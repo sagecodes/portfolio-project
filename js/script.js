@@ -23,6 +23,7 @@ $(function () {
 
 // Shows and hides portfolio projects
 $(document).ready(function(){
+    $(".top").addClass('show');
     $(".top-btn").click(function(){
         $(".tag").removeClass('show');
         $(".top").addClass('show');
