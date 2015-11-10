@@ -20,3 +20,23 @@ $(function () {
                     $('.navbar-toggle:visible').click();
             });
     });
+
+// Shows and hides portfolkio projects
+$(document).ready(function(){
+    $(".top-btn").click(function(){
+        $(".tag").hide();
+        $(".top").show();
+    });
+    $(".all-btn").click(function(){
+        $(".tag").hide();
+        $(".tag").show();
+    });
+    $(".html-btn").click(function(){
+        $(".tag").hide();
+        $(".html-tag").show();
+    });
+    $(".css-btn").click(function(){
+        $(".tag").hide();
+        $(".css-tag").show();
+    });
+});
