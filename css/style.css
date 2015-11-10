@@ -31,7 +31,6 @@ body {
 #portfolio,
 #contact{
     padding-top: 55px;
-    background: red;
     background: #f9f9f9;
 }
 
@@ -42,9 +41,18 @@ body {
 
 .navbar {
     border: none;
-    /*box-shadow: none;*/
+    box-shadow: none;
     opacity: 0.99;
-    margin: 0px 0 10px;
+    background: none;
+    margin: 0px 0 0px;
+}
+
+.navbar.scrolled {
+    border: none;
+     box-shadow: 0.7px 0.7px 3px #888888;
+    background: #f9f9f9;
+    -webkit-transition: all 0.4s; /* For Safari 3.1 to 6.0 */
+    transition: all 0.4s;
 }
 
 .navbar-nav li a {
@@ -92,14 +100,6 @@ h1 {
     text-align: center;
     font-size: 3.25em;
 }
-/*.profile-photo {
-    display: block;
-    max-width: 20%;
-    min-width: 170px;
-    max-width: 300px;
-    margin: 0 auto 10px;
-    border-radius: 100%;
-}*/
 
 .dropcap {
     font-size: 3.4em;
