@@ -24,23 +24,24 @@ $(function () {
 // Shows and hides portfolio projects
 $(document).ready(function(){
     $(".top-btn").click(function(){
-        $(".tag").hide();
-        $(".top").show();
+        $(".tag").removeClass('show');
+        $(".top").addClass('show');
     });
     $(".all-btn").click(function(){
-        $(".tag").hide();
-        $(".tag").show();
+        $(".tag").removeClass('show');
+        $(".tag").addClass('show');
     });
     $(".html-btn").click(function(){
-        $(".tag").hide();
-        $(".html-tag").show();
+        $(".tag").removeClass('show');
+        $(".html-tag").addClass('show');
     });
     $(".css-btn").click(function(){
-        $(".tag").hide();
-        $(".css-tag").show();
+        $(".tag").removeClass('show');
+        $(".css-tag").addClass('show');
     });
 });
 
+// add background to navbar on scroll
 jQuery(window).scroll(function(){
     var fromTopPx = 55; // distance to trigger
     var scrolledFromtop = jQuery(window).scrollTop();

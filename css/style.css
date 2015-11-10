@@ -32,6 +32,7 @@ body {
 #contact{
     padding-top: 55px;
     background: #f9f9f9;
+    min-height: 500px;
 }
 
 
@@ -52,6 +53,10 @@ body {
     background: #f9f9f9;
     -webkit-transition: all 0.7s ease; /* For Safari 3.1 to 6.0 */
     transition: all 0.7s;
+}
+
+.navbar-collapse{
+    background: #f9f9f9;
 }
 
 .navbar-nav li a {
@@ -113,9 +118,21 @@ h1 {
 /* Portfolio
 ===========================================*/
 .tag {
-    -webkit-transition: all 0.7s ease; /* For Safari 3.1 to 6.0 */
-    transition: all 0.7s;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+    -ms-transform: translate(50px,100px); /* IE 9 */
+    -webkit-transform: translate(50px,100px); /* Safari */
+    transform: translate(5000px,1000px); /* Standard syntax */
+    position: fixed;
+
 }
+
+.tag.show {
+    position: relative;
+    visibility: visible;
+    transform: translate(0px,0px); /* Standard syntax */
+}
+
 .thumbnail {
     border: none;
     height: 350px;
@@ -160,10 +177,6 @@ h1 {
 /* Contact
 ===========================================*/
 
-#contact {
-    min-height: 500px;
-
-}
 .icons {
     margin: 0 auto 0px;
     max-width: 160px;
