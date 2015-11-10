@@ -48,11 +48,11 @@ body {
 }
 
 .navbar.scrolled {
-    border: none;
-     box-shadow: 0.7px 0.7px 3px #888888;
+
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
     background: #f9f9f9;
-    -webkit-transition: all 0.4s; /* For Safari 3.1 to 6.0 */
-    transition: all 0.4s;
+    -webkit-transition: all 0.7s ease; /* For Safari 3.1 to 6.0 */
+    transition: all 0.7s;
 }
 
 .navbar-nav li a {
