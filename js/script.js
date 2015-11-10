@@ -21,7 +21,7 @@ $(function () {
             });
     });
 
-// Shows and hides portfolkio projects
+// Shows and hides portfolio projects
 $(document).ready(function(){
     $(".top-btn").click(function(){
         $(".tag").hide();

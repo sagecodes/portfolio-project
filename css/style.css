@@ -8,6 +8,13 @@ html,
 body {
     overflow-x: hidden;
 }
+
+.container-fluid {
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+
 body {
     font-family: "Alegreya", Georgia, serif;
     font-weight: normal;
@@ -22,7 +29,9 @@ body {
 #contact{
     padding-top: 55px;
     margin-top: 55px;
+    background: red;
 }
+
 
 
 /* Navigation & Header
@@ -96,7 +105,10 @@ h1 {
 }
 /* Portfolio
 ===========================================*/
-
+.tag {
+    -webkit-transition: all 3s; /* For Safari 3.1 to 6.0 */
+    transition: all 3s;
+}
 .thumbnail {
     border: none;
     height: 350px;
