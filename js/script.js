@@ -40,6 +40,22 @@ $(document).ready(function(){
         $(".tag").removeClass('show');
         $(".css-tag").addClass('show');
     });
+    $(".python-btn").click(function(){
+        $(".tag").removeClass('show');
+        $(".python-tag").addClass('show');
+    });
+    $(".js-btn").click(function(){
+        $(".tag").removeClass('show');
+        $(".js-tag").addClass('show');
+    });
+    $(".flask-btn").click(function(){
+        $(".tag").removeClass('show');
+        $(".flask-tag").addClass('show');
+    });
+    $(".sql-btn").click(function(){
+        $(".tag").removeClass('show');
+        $(".sql-tag").addClass('show');
+    });
 });
 
 // add background to navbar on scroll
