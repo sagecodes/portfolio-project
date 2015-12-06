@@ -52,3 +52,11 @@
         margin-bottom: 80px;
     }
 }
+
+@media screen and (min-width: 1700px) {
+
+    .landing-photo {
+        margin-top: -200px;
+    }
+
+}
